@@ -1,0 +1,295 @@
+header {
+    width: 1396px;
+    height: 56px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.menu {
+    width: 1396px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+}
+
+.left {
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+}
+
+.selector {
+    width: 70px;
+    height: 56px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: space-between;
+    align-content: center;
+    gap: 5px;
+}
+
+.youtube {
+    height: 30px;
+    padding-left: 5px;
+}
+
+.center {
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.rectangle2 {
+    height: 50px;
+    justify-self: flex-end;
+}
+
+.rectangle1 {
+    height: 50px;
+    justify-self: flex-start;
+}
+
+.search {
+    width: 25px;
+    height: 35px;
+    flex-flow: column-reverse wrap;
+    position: absolute;
+    top: 8%;
+    right: 4.2%;
+}
+
+.haste-lupa {
+    height: 7px;
+    position: absolute;
+    top: 73%;
+    left: 60%;    
+}
+
+.circulo-lupa {
+    height: 20px;
+    position: absolute;
+    top: 28%;
+}
+
+.right {
+    height: 56px;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+
+.camera {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.camera-quadrado {
+    position: absolute;
+    top: 34%;
+    left: 30%;
+}
+
+.camera-triangulo {
+    position: absolute;
+    top: 37%;
+    left: 60%;
+}
+
+.bell {
+    width: 50px;
+    height: 50px;
+    padding: 0px 5px 0px 8px;
+    position: relative;
+}
+
+.bell-haste {
+    position: absolute;
+    top: 64%;
+    left: 42%;
+}
+
+.bell-body {
+    position: absolute;
+    top: 28%;
+    left: 30%;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    padding: 4px 35px 4px 10px;
+}
+
+main {
+    width: 1396px;
+    display: flex;
+    background-color: #f9f9f9;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 0;
+}
+
+.whatching-video {
+    width: 900px;
+    height: 800px;
+    flex-flow: row wrap;
+}
+
+.image2 {
+    width: 900px;
+    padding: 20px 0px 20px 0px;
+}
+
+.text-1 {
+    width: 871px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+.video-actions {
+    width: 860px;
+    height: 42px;
+    flex-direction: row;
+}
+
+.channel-infos {
+    height: 42px;
+    flex-direction: row;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.channel-avatar, .like, .dislike, .share, .download {
+    height: 42px;
+    align-items: center;
+}
+
+.text {
+    padding: 0px 15px 0px 4px;
+}
+
+.subscribe-button {
+    padding: 2px 15px 2px 15px;
+}
+
+.thumbs {
+    width: 24px;
+    height: 24px;
+    padding: 0px 2px 0px 15px;
+}
+
+.share-2, .download-vector {
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+.vector-1 {
+    position: absolute;
+    top: 15px;
+    left: 23px;
+}
+
+.vector-2 {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+}
+
+.circulo-1 {
+    position: absolute;
+    top: 18px;
+    left: 17px;
+}
+
+.circulo-2 {
+    position: absolute;
+    top: 10px;
+    left: 29px;
+}
+
+.circulo-3 {
+    position: absolute;
+    top: 26px;
+    left: 29px;
+}
+
+.dl-1 {
+    position: absolute;
+    top: 6px;
+    left: 21px;
+}
+
+.dl-2 {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+
+.dl-3 {
+    position: absolute;
+    top: 19px;
+    left: 11.5px;
+}
+
+.text-2 {
+    width: 391px;
+    height: 15px;
+}
+
+.text-3 {
+    width: 510px;
+    height: 60px;
+}
+
+#sidebar {
+    width: 306px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.video {
+    width: 406px;
+    flex-flow: row nowrap;
+    padding-top: 20px;
+}
+
+.infos {
+    flex-flow: column-reverse nowrap;
+    justify-content: space-between;
+}
+
+.info1 {
+    width: 115px;
+    height: 24px;
+    padding-left: 15px;
+}
+
+.info2 {
+    width: 115px;
+    height: 12.53px;
+    padding-left: 15px;
+}
+
+.info3 {
+    padding-left: 15px;
+}
+
+.scrum {
+    width: 75px;
+    height: 12px;
+}
+
+.img-video {
+    flex-flow: column nowrap;
+}
